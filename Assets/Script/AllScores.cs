@@ -7,7 +7,6 @@ public class AllScores : MonoBehaviour
 {
     [SerializeField] TMP_Text allScores;
     // Start is called before the first frame update
-    
     void Start()
     {
         int[] scores = SharedData.instance.scores;
