@@ -18,7 +18,6 @@ public class AllScores : MonoBehaviour
             $"Level 5: {scores[4]}\n";
         allScores.text = txt;
     }
-
     // Update is called once per frame
     void Update()
     {
